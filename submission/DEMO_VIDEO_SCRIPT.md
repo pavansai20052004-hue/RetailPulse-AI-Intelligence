@@ -7,7 +7,7 @@ the beginning.
 ## Before Recording
 
 - Close unrelated tabs, notifications, bookmarks, and personal account details.
-- Open `<PUBLIC_STREAMLIT_APP_URL>` in a private/incognito window.
+- Open `https://retailpulse-9t0y.onrender.com` in a private/incognito window.
 - Wait for every chart and model result to finish loading.
 - Check that the country and date filters are at their default values.
 - Prepare the final report PDF in a second tab.
@@ -94,4 +94,3 @@ analytics into one reproducible project. Thank you for reviewing the project."
 - [ ] Every major dashboard tab appears at least once.
 - [ ] The recording contains no credentials or private information.
 - [ ] The final exported video plays from beginning to end.
-

@@ -2,6 +2,8 @@
 
 RetailPulse is a comprehensive retail AI analytics project built on the UCI Online Retail dataset. It includes a reproducible data-preparation pipeline, predictive modeling, inventory optimization, an executive PDF report, reusable analytics code, and a polished Streamlit dashboard for interactive exploration.
 
+**Live dashboard:** https://retailpulse-9t0y.onrender.com
+
 The operational console exposes data quality, model validation, retention queues, adjustable inventory scenarios, and reviewer-ready exports. Predictive metrics use unseen holdouts, and the churn model excludes label-defining recency fields.
 
 ## What is included

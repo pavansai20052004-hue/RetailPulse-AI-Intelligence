@@ -20,24 +20,12 @@ comparison, pull request, or GitHub settings page.
 
 ## 2. Publish the Live Deployment
 
-Recommended path: Streamlit Community Cloud.
+The application is deployed from the repository's `render.yaml` Blueprint:
 
-1. Sign in at `https://share.streamlit.io/` with the GitHub account that owns
-   the public repository.
-2. Select **Create app**.
-3. Choose the `RetailPulse` repository and the intended branch.
-4. Set the main file path to `app/dashboard.py`.
-5. Choose an available app URL and deploy.
-6. Wait for the dashboard and every predictive tab to load.
-7. Open the deployment in a signed-out/private browser.
-8. Copy the final HTTPS URL in this form:
-   `https://<app-name>.streamlit.app`
-9. Replace `<PUBLIC_STREAMLIT_APP_URL>` in
-   `submission/SUBMISSION_CHECKLIST.md`.
+`https://retailpulse-9t0y.onrender.com`
 
-If deployment fails because the raw source data is intentionally excluded,
-confirm that the repository includes the processed data required by the app.
-Never solve deployment by publishing restricted data or credentials.
+The free Render service may need up to 50 seconds to wake after inactivity. Its
+health endpoint is `https://retailpulse-9t0y.onrender.com/_stcore/health`.
 
 ## 3. Upload the Demo Video
 
@@ -115,4 +103,3 @@ folder. Submit the public link to the PDF itself.
 | Streamlit shows an import error | Verify `requirements.txt` and the main file path |
 | Streamlit shows missing data | Include only the permitted processed runtime data |
 | Report link opens a folder | Share and copy the link for the PDF file itself |
-

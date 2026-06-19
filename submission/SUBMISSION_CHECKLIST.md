@@ -1,22 +1,18 @@
 # RetailPulse Submission Checklist
 
 Use this file as the single source of truth before completing the submission form.
-Use the verified public links below when completing the submission form. The live
-deployment is prepared as a free Render Blueprint and requires one account-authorized
-click in the Render dashboard.
+Use the verified public links below when completing the submission form. All five
+deliverables are public and ready for review.
 
 ## Submission Form Values
 
 | Submission field | Value to paste | Status |
 | --- | --- | --- |
 | Source code link | `https://github.com/pavansai20052004-hue/RetailPulse-AI-Intelligence` | READY |
-| Live deployment link | `https://dashboard.render.com/blueprint/new?repo=https://github.com/pavansai20052004-hue/RetailPulse-AI-Intelligence` | ACCOUNT AUTHORIZATION REQUIRED |
+| Live deployment link | `https://retailpulse-9t0y.onrender.com` | READY |
 | Demo video link | `https://github.com/pavansai20052004-hue/RetailPulse-AI-Intelligence/releases/download/v1.0.0/RetailPulse_Demo_Video.mp4` | READY |
 | Feedback reflection video link | `https://github.com/pavansai20052004-hue/RetailPulse-AI-Intelligence/releases/download/v1.0.0/RetailPulse_Feedback_Video.mp4` | READY |
 | Project report link | `https://github.com/pavansai20052004-hue/RetailPulse-AI-Intelligence/releases/download/v1.0.0/RetailPulse_Final_Comprehensive_Report.pdf` | READY |
-
-After authorizing Render, replace the Blueprint URL with the generated public
-`https://retailpulse-....onrender.com` service URL.
 
 ## Required Local Assets
 
@@ -32,9 +28,9 @@ After authorizing Render, replace the Blueprint URL with the generated public
 
 ## Final Pre-Submission Gate
 
-- [x] Replace all available URL placeholders in the table above.
+- [x] Replace all five URL placeholders in the table above.
 - [x] Confirm the GitHub repository is public.
-- [ ] Confirm the live dashboard loads without a login, error, or sleeping-app failure.
+- [x] Confirm the live dashboard and health endpoint return HTTP 200.
 - [x] Confirm both videos are published as public GitHub release assets.
 - [x] Confirm the PDF report is published as a public GitHub release asset.
 - [ ] Confirm the demo video shows the submitted live deployment URL.
@@ -49,7 +45,7 @@ After authorizing Render, replace the Blueprint URL with the generated public
 
 ```text
 Source code: https://github.com/pavansai20052004-hue/RetailPulse-AI-Intelligence
-Live deployment setup: https://dashboard.render.com/blueprint/new?repo=https://github.com/pavansai20052004-hue/RetailPulse-AI-Intelligence
+Live deployment: https://retailpulse-9t0y.onrender.com
 Demo video: https://github.com/pavansai20052004-hue/RetailPulse-AI-Intelligence/releases/download/v1.0.0/RetailPulse_Demo_Video.mp4
 Feedback reflection: https://github.com/pavansai20052004-hue/RetailPulse-AI-Intelligence/releases/download/v1.0.0/RetailPulse_Feedback_Video.mp4
 Project report: https://github.com/pavansai20052004-hue/RetailPulse-AI-Intelligence/releases/download/v1.0.0/RetailPulse_Final_Comprehensive_Report.pdf
