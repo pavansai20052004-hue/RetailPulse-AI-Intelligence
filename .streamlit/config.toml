@@ -1,0 +1,13 @@
+[browser]
+gatherUsageStats = false
+
+[client]
+showErrorDetails = "none"
+toolbarMode = "minimal"
+
+[server]
+address = "0.0.0.0"
+fileWatcherType = "none"
+headless = true
+runOnSave = false
+

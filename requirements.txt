@@ -1,0 +1,11 @@
+matplotlib>=3.8
+numpy>=1.26
+openpyxl>=3.1
+pandas>=2.2
+plotly>=5.22
+pytest>=8.2
+reportlab>=4.2
+scikit-learn>=1.5
+seaborn>=0.13
+streamlit>=1.36
+xgboost>=2.1

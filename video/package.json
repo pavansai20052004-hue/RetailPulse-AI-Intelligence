@@ -1,0 +1,19 @@
+{
+  "name": "retailpulse-submission-videos",
+  "private": true,
+  "scripts": {
+    "capture": "node capture.mjs",
+    "render:demo": "remotion render src/index.ts RetailPulseDemo ../output/videos/RetailPulse_Demo_Video.mp4",
+    "render:feedback": "remotion render src/index.ts RetailPulseFeedback ../output/videos/RetailPulse_Feedback_Video.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.409",
+    "playwright": "^1.61.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "remotion": "^4.0.409"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}

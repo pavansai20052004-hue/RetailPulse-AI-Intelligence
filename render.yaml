@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: retailpulse
+    runtime: docker
+    plan: starter
+    autoDeployTrigger: commit
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    dockerCommand: >-
+      streamlit run app/dashboard.py
+      --server.address=0.0.0.0
+      --server.port=$PORT
+      --server.headless=true
+      --server.fileWatcherType=none
+      --client.showErrorDetails=none
+      --client.toolbarMode=minimal
+      --browser.gatherUsageStats=false
+    healthCheckPath: /_stcore/health
+    maxShutdownDelaySeconds: 30
+

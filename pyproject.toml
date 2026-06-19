@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "retailpulse"
+version = "1.0.0"
+description = "Retail analytics dashboard and reporting pipeline for the Online Retail dataset."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "matplotlib>=3.8",
+  "numpy>=1.26",
+  "openpyxl>=3.1",
+  "pandas>=2.2",
+  "plotly>=5.22",
+  "pytest>=8.2",
+  "reportlab>=4.2",
+  "scikit-learn>=1.5",
+  "seaborn>=0.13",
+  "streamlit>=1.36",
+  "xgboost>=2.1",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

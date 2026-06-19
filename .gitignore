@@ -1,0 +1,43 @@
+# Python bytecode and tooling caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local environment files
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+node_modules/
+video/node_modules/
+
+# Notebook and editor state
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+*~
+
+# Streamlit secrets are always local
+.streamlit/secrets.toml
+
+# Source data and generated deliverables
+data/raw/
+output/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
