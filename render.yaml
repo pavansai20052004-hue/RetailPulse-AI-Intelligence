@@ -2,7 +2,7 @@ services:
   - type: web
     name: retailpulse
     runtime: docker
-    plan: starter
+    plan: free
     autoDeployTrigger: commit
     dockerfilePath: ./Dockerfile
     dockerContext: .
@@ -17,4 +17,3 @@ services:
       --browser.gatherUsageStats=false
     healthCheckPath: /_stcore/health
     maxShutdownDelaySeconds: 30
-

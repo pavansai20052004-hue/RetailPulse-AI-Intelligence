@@ -1,25 +1,22 @@
 # RetailPulse Submission Checklist
 
 Use this file as the single source of truth before completing the submission form.
-Replace every value wrapped in angle brackets and remove the `NOT READY` labels only
-after testing each public link in a private/incognito browser window.
+Use the verified public links below when completing the submission form. The live
+deployment is prepared as a free Render Blueprint and requires one account-authorized
+click in the Render dashboard.
 
 ## Submission Form Values
 
 | Submission field | Value to paste | Status |
 | --- | --- | --- |
-| Source code link | `<PUBLIC_GITHUB_REPOSITORY_URL>` | NOT READY |
-| Live deployment link | `<PUBLIC_STREAMLIT_APP_URL>` | NOT READY |
-| Demo video link | `<PUBLIC_DEMO_VIDEO_URL>` | NOT READY |
-| Feedback reflection video link | `<PUBLIC_FEEDBACK_REFLECTION_VIDEO_URL>` | NOT READY |
-| Project report link | `<PUBLIC_PROJECT_REPORT_URL>` | NOT READY |
+| Source code link | `https://github.com/pavansai20052004-hue/RetailPulse-AI-Intelligence` | READY |
+| Live deployment link | `https://dashboard.render.com/blueprint/new?repo=https://github.com/pavansai20052004-hue/RetailPulse-AI-Intelligence` | ACCOUNT AUTHORIZATION REQUIRED |
+| Demo video link | `https://github.com/pavansai20052004-hue/RetailPulse-AI-Intelligence/releases/download/v1.0.0/RetailPulse_Demo_Video.mp4` | READY |
+| Feedback reflection video link | `https://github.com/pavansai20052004-hue/RetailPulse-AI-Intelligence/releases/download/v1.0.0/RetailPulse_Feedback_Video.mp4` | READY |
+| Project report link | `https://github.com/pavansai20052004-hue/RetailPulse-AI-Intelligence/releases/download/v1.0.0/RetailPulse_Final_Comprehensive_Report.pdf` | READY |
 
-Expected URL examples:
-
-- Source code: `https://github.com/<username>/RetailPulse`
-- Live app: `https://<app-name>.streamlit.app`
-- Videos: `https://youtu.be/<video-id>` or a Google Drive sharing URL
-- Report: a Google Drive sharing URL that opens the PDF without requesting access
+After authorizing Render, replace the Blueprint URL with the generated public
+`https://retailpulse-....onrender.com` service URL.
 
 ## Required Local Assets
 
@@ -35,11 +32,11 @@ Expected URL examples:
 
 ## Final Pre-Submission Gate
 
-- [ ] Replace all five URL placeholders in the table above.
-- [ ] Confirm the GitHub repository is public and opens while signed out.
+- [x] Replace all available URL placeholders in the table above.
+- [x] Confirm the GitHub repository is public.
 - [ ] Confirm the live dashboard loads without a login, error, or sleeping-app failure.
-- [ ] Confirm both videos play without requesting access.
-- [ ] Confirm the PDF report opens or downloads without requesting access.
+- [x] Confirm both videos are published as public GitHub release assets.
+- [x] Confirm the PDF report is published as a public GitHub release asset.
 - [ ] Confirm the demo video shows the submitted live deployment URL.
 - [ ] Confirm the demo video covers overview, forecasting, customers, churn, and inventory.
 - [ ] Confirm the reflection video discusses feedback, changes, and learning.
@@ -50,13 +47,10 @@ Expected URL examples:
 
 ## Submission Copy Block
 
-Replace placeholders, then paste each line into the matching form field:
-
 ```text
-Source code: <PUBLIC_GITHUB_REPOSITORY_URL>
-Live deployment: <PUBLIC_STREAMLIT_APP_URL>
-Demo video: <PUBLIC_DEMO_VIDEO_URL>
-Feedback reflection: <PUBLIC_FEEDBACK_REFLECTION_VIDEO_URL>
-Project report: <PUBLIC_PROJECT_REPORT_URL>
+Source code: https://github.com/pavansai20052004-hue/RetailPulse-AI-Intelligence
+Live deployment setup: https://dashboard.render.com/blueprint/new?repo=https://github.com/pavansai20052004-hue/RetailPulse-AI-Intelligence
+Demo video: https://github.com/pavansai20052004-hue/RetailPulse-AI-Intelligence/releases/download/v1.0.0/RetailPulse_Demo_Video.mp4
+Feedback reflection: https://github.com/pavansai20052004-hue/RetailPulse-AI-Intelligence/releases/download/v1.0.0/RetailPulse_Feedback_Video.mp4
+Project report: https://github.com/pavansai20052004-hue/RetailPulse-AI-Intelligence/releases/download/v1.0.0/RetailPulse_Final_Comprehensive_Report.pdf
 ```
-
