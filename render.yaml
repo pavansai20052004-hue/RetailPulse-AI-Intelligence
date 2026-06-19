@@ -16,4 +16,3 @@ services:
       --client.toolbarMode=minimal
       --browser.gatherUsageStats=false
     healthCheckPath: /_stcore/health
-    maxShutdownDelaySeconds: 30
